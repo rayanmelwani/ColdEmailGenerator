@@ -1,15 +1,16 @@
-# generated description about PerlonAI
-PERLON_DESCRIPTION = """PerlonAI specializes in the creation and distribution of automated, hyper-personalized cold emails designed to significantly improve engagement and response rates over standard email templates. The company employs sophisticated AI models tailored to each customer's unique brand voice and requirements. These AI models automate the entire process, including researching, crafting, and sending emails directly from the user's mailbox.
-
-Key benefits reported by PerlonAI include:
-1. **Increased Efficiency**: Template-based campaigns are statistically ineffective; PerlonAI enables personalization at scale without the extensive time investment traditionally required to craft personalized emails, claiming to provide 500% more replies and an 86% increase in email opens.
-2. **Time Savings**: It reduces the time spent on drafting emails from 15-30 minutes each to essentially zero, giving sales teams more time to focus on closing deals.
-3. **Spam Filter Navigation**: Because each email is unique, they are more likely to bypass spam filters effectively.
-4. **Enhanced Email Volume**: The system supports sending a significantly higher volume of emails compared to manual drafting.
-
-The process includes a consultation to understand client objectives, model building which leverages real-time data, and integration directly with the client's existing mailboxes to start campaigns effectively within three days.
-
-Prospective clients are encouraged to book a demo to see how PerlonAI can help automate their email prospecting efforts, aiming to transform how companies conduct their outreach by merging automation with personalization for superior results."""
+# email sender information
+SENDER_COMPANY = "Swapp"
+SENDER_NAME = "Alex Amalfi"
+SENDER_COMPANY_DESCRIPTION = "Swapp is a company that leverages AI to create architectural documentation."
+SENDER_ROLE = "Co-Founder of Swapp"
+COMPANY_WEBSITE_DESCRIPTION = """The Swapp Official Site introduces a new era in architectural documentation, leveraging AI to improve processes and results. Swapp enhances architectural firms by extracting data from previous projects and using it to create and automate detailed new project documentation. This process is aimed at boosting team performance, maintaining high standards, and improving delivery times without sacrificing quality.
+Key benefits for architects using Swapp include:
+1. **Integration of Cutting-Edge Technology**: Swapp works alongside architectural teams from conception through to construction documentation, improving workflow and efficiency without the need for learning new tools.
+2. **Increased Profitability**: By automating time-consuming drafting tasks, firms can handle more projects simultaneously, reduce overtime, and provide added value to clients, thus boosting profitability.
+3. **Talent Attraction**: Automation allows firms to move junior architects to drafting work sooner, enhancing career development and making the firm more attractive to top new talent.
+4. **Data Security and Personalization**: Swapp prioritizes client data privacy and security, using client data to create customized tools and outputs, without retaining ownership of the data.
+Swapp positions itself as a responsible AI partner in architecture, enhancing project management and design through seasoned experience across various sectors including healthcare, education, and hospitality. The platform is committed to safeguarding information and optimizing both past and current projects, thereby ensuring that clients’ expertise takes precedence.
+Swapp's contact details and headquarters are provided along with an invitation to architects and firms to connect and explore how its AI technology can help streamline their architectural processes."""
 
 # Pulled example emails from the website 
 EXAMPLE_EMAIL_1 = """Hi Addie,

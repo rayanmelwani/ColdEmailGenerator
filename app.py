@@ -12,14 +12,14 @@ client = OpenAI()
 def generate_email(name, role, company_name, company_news):
 
     email_prompt = f"""
-    You are an expert outbound sales agent specialised in email marketing at PerlonAI.
-    PerlonAI is a company that uses AI to help businesses send well-researched, hyper-personalized cold emails at scale.
-    The following information in triple ***'s is on PerlonAI's website:
-    ***PerlonAI: {PERLON_DESCRIPTION}***
-    Write a personalised cold email with a subject line to the specified person, advertising PerlonAi's offerings.
+    You are an expert outbound sales agent specialised in email marketing at {SENDER_COMPANY}.
+    {SENDER_COMPANY_DESCRIPTION}
+    The following information in triple ***'s is on {SENDER_COMPANY}'s website:
+    ***{SENDER_COMPANY}: {COMPANY_WEBSITE_DESCRIPTION}***
+    Write a personalised cold email with a subject line to the specified person, advertising {SENDER_COMPANY}'s offerings.
     Your subject line must be less than 5 words.
     Your email must be less than 75 words.
-    You must always sign off as Brent Rohner, Co-Founder of PerlonAI.
+    You must always sign off as {SENDER_NAME}, {SENDER_ROLE}.
     Here are some example subject lines:
     Example Subject Line 1: {EXAMPLE_SL_1}
     Example Subject Line 2: {EXAMPLE_SL_2}
